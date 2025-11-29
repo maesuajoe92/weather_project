@@ -15,7 +15,7 @@ def get_weather(city):
 
 
 def main():
-    city = input("Enter city name: ")
+    city = input("Enter any city name: ")
     temp, condition = get_weather(city)
     print(f"The current temperature in {city} is {temp}°C\nCondition: {condition}.")
 
